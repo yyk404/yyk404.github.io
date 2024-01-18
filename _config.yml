@@ -4,7 +4,7 @@ url: "https://yyk404.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: YYK's Blog                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
+description: " "      # used by search engines
 avatar: assets/img/20210508162803_a8ad1.jpg                     # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
