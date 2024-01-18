@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gallery
-subtitle: HAPPY EVERYTIME!
+subtitle: HAPPY EVERYDAY!
 permalink: /gallery/
 gallery_path: "assets/img/pexels"
 excluded: true
