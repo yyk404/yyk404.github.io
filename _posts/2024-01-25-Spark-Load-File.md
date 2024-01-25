@@ -8,9 +8,9 @@ dbutils.fs.ls("/FileStore/tables/data/retail-data/by-day")
 
 ```scala
 val df = spark.read.format("csv")
-.option("header", "true")
-.option("inferSchema", "true")
-.load("/FileStore/tables/data/retail-data/by-day/2010_12_01.csv")
+  .option("header", "true")
+  .option("inferSchema", "true")
+  .load("/FileStore/tables/data/retail-data/by-day/2010_12_01.csv")
 df.printSchema()
 df.createOrReplaceTempView("dfTable")
 ```
