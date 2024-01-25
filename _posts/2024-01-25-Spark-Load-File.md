@@ -4,7 +4,8 @@
 dbutils.fs.ls("/FileStore/tables/data/retail-data/by-day")
 ```
 
-> ls 
+> ls
+
 ```
 val df = spark.read.format("csv")
 .option("header", "true")
@@ -15,4 +16,5 @@ df.createOrReplaceTempView("dfTable")
 ```
 >加载文件
 
-![输入图片说明](blob:https://stackedit.cn/c2786e5a-00fc-4b0c-adb9-61f9af1b1afb)
+{% include aligner.html images="blob:https://stackedit.cn/c2786e5a-00fc-4b0c-adb9-61f9af1b1afb" %}
+
