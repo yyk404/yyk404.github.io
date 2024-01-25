@@ -6,7 +6,7 @@ dbutils.fs.ls("/FileStore/tables/data/retail-data/by-day")
 
 > ls
 
-```
+```scala
 val df = spark.read.format("csv")
 .option("header", "true")
 .option("inferSchema", "true")
