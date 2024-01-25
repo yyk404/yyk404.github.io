@@ -14,4 +14,5 @@ df.printSchema()
 df.createOrReplaceTempView("dfTable")
 ```
 >加载文件
-![输入图片说明](/imgs/2024-01-24/thjQrvMbhWD7pA1K.png)
+
+![输入图片说明](blob:https://stackedit.cn/c2786e5a-00fc-4b0c-adb9-61f9af1b1afb)
